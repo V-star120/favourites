@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body
+{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+background-image:url("RpfM9q.gif");
+}
+h1
+{
+	color:#06038D;
+	font-size: 50;
+}
+
+
+.input
+{
+text-align:center;
+background-color: #69696960;
+padding:20px;
+
+}
+.submit
+{
+	background-color:black;
+color:white;
+display:inline-block;	
+border:none;
+font-size:20;
+border-radius:10px;
+}
+@media screen and(max-width:1050 px)
+{
+	body
+	{
+		background-size:100%;
+	}
+	.input,.submit
+	{
+		width:100%;
+		margin:230px 00;
+	}
+	}
+
+
